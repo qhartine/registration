@@ -8,7 +8,7 @@ $errors = array();
 
 /*mysql://b96626bbb30381:e0f4cd49@us-cdbr-east-04.cleardb.com/heroku_33ca8f2f270c9f3?reconnect=true*/
 // connect to the database
-$db = mysqli_connect('us-cdbr-east-04.cleardb.com', 'b96626bbb30381', 'e0f4cd49', 'heroku_33ca8f2f270c9f3');
+//$db = mysqli_connect('us-cdbr-east-04.cleardb.com', 'b96626bbb30381', 'e0f4cd49', 'heroku_33ca8f2f270c9f3');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
@@ -96,8 +96,8 @@ $query_builder = TRUE;
 
 // Connect to DB
 //$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-//$db = mysqli_connect('us-cdbr-east-04.cleardb.com', 'b96626bbb30381', 'e0f4cd49', 'heroku_33ca8f2f270c9f3');
 
+$db = mysqli_connect('us-cdbr-east-04.cleardb.com', 'b96626bbb30381', 'e0f4cd49', 'heroku_33ca8f2f270c9f3');
 //$db = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
 
 /*mysql://b96626bbb30381:e0f4cd49@us-cdbr-east-04.cleardb.com/heroku_33ca8f2f270c9f3?reconnect=true*/
